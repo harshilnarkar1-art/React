@@ -1,0 +1,19 @@
+#footer-parent{
+    display: flex;
+    bottom: 0px;
+    flex-direction: row;
+}
+.footer-child{
+    display: flex;
+}
+.footer-child{
+    list-style: none;
+    display: flex;
+    font-weight: bolder;
+    justify-content: center;
+}
+.footer-child>li{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}

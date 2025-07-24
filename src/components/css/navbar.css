@@ -1,0 +1,19 @@
+#NavBar {
+    /* height: 20px; */
+    width: 100vw;
+    background-color: red;
+    color: yellow;
+    height: 8vh;
+}
+
+.ChildNavBar {
+    display: flex;
+    justify-content: end;
+   
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+    margin: 7px;
+}
