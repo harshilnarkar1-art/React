@@ -8,7 +8,11 @@ export class Counter extends Component {
       count : 0
     };
   }
+  
   render() {
+    if (this.state.count == 15){
+      throw new Error("Counter Reached 15 !");
+    }
     return (
       <>
         <div className="counter-parent">

@@ -12,7 +12,6 @@ function UserContext({ component }) {
             .then((data) => {
                 setUserData(data);
                 console.log(data);
-
             });
     }, []);
 

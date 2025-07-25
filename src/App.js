@@ -8,6 +8,7 @@ import LogIn from './components/LogIn';
 import Counter from './components/Counter';
 import NewCounter from './components/NewCounter';
 import UseOfMemo from './components/UseOfMemo';
+import ErrorBoundary from './components/ErrorBoundary';
 
 
 function App() {
@@ -58,7 +59,10 @@ function App() {
       element: (
         <>
           <NavBar />
-          <Counter />
+          <ErrorBoundary >
+
+            <Counter />
+          </ErrorBoundary>
           <Footer />
         </>
       )

@@ -16,8 +16,8 @@ function UseOfMemo() {
             <Greet name="Harshil"/>
             <Greet name="Rakesh"/>
             <Greet name="Vijay"/>
-            <Greet name="Jayent"/>
-            <Greet name="Shekhar"/>
+            <Greet name="Krish"/>
+            <Greet name="Shivani"/>
         </div>
     </div>
   )

@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 import { Link, NavLink, Outlet } from 'react-router-dom';
 import { userDataContext } from '../context/UserContext';
+import About from './About';
 
 
 function NavBar() {
@@ -104,6 +105,7 @@ function NavBar() {
         </div>
       </nav>
       <Outlet />
+      <About />
 
     </>
   )
